@@ -230,6 +230,15 @@
             }
         },
         {
+            "endpoint": "/plsworkthx",
+            "backend": [
+                {
+                    "host": [ "http://devfile-sample-go-basic-git-kim-leoniee-dev.apps.sandbox-m2.ll9k.p1.openshiftapps.com" ],
+                    "url_pattern": "/"
+                }
+            ]
+        },
+        {
             "endpoint": "/show/{id}",
             "backend": [
                 {
