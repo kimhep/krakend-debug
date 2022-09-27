@@ -231,14 +231,12 @@
         },
         {
             "endpoint": "/plsworkthxdebug",
-            "method": "GET",
             "backend": [
                 {
-                "url_pattern": "/__debug/plsworkthx",
-                "method": "GET",
                 "host": [
                     "http://devfile-sample-go-basic-git-kim-leoniee-dev.apps.sandbox-m2.ll9k.p1.openshiftapps.com"
-                ]
+                ],
+                "url_pattern": "/__debug/plsworkthx"
                 }
             ]
         },
