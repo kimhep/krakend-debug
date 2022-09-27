@@ -230,7 +230,7 @@
             }
         },
         {
-            "endpoint": "/plsworkthx",
+            "endpoint": "/plsworkthxdebug",
             "method": "GET",
             "backend": [
                 {
